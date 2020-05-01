@@ -14,6 +14,8 @@
     - name: 'Set Known Facts'
       set_fact:
         pgrole: 'rclone-guru'
+        intport: '0'
+        extport: '0'
         mountname: 'guru'
         image: 'mumiehub/rclone-mount'
 
