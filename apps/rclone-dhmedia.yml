@@ -62,8 +62,6 @@
       docker_container:
         name: '{{pgrole}}'
         image: '{{image}}'
-        cap_add:
-          - SYS_ADMIN
         devices:
           - /dev/fuse
         security_opt:
