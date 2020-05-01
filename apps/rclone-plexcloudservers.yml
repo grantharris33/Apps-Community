@@ -64,8 +64,6 @@
         image: '{{image}}'
         devices:
           - /dev/fuse
-        security_opt:
-          - apparmor:unconfined
         pull: yes
         published_ports:
           - '{{ports.stdout}}{{extport}}:{{intport}}'
